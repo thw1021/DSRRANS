@@ -17,13 +17,15 @@ geometrical configurations. The results demonstrate promising accuracy improveme
 showing the generalization ability of the proposed method. Moreover, with the given explicit model equations, it can be
 easier to interpret the influence of input features on generated models.
 
+This paper is availbale at https://aip.scitation.org/doi/10.1063/5.0135638, the preprint is also available [here](https://www.researchgate.net/publication/367303532_Discovering_explicit_Reynolds-averaged_turbulence_closures_for_turbulent_separated_flows_through_deep_learning-based_symbolic_regression_with_non-linear_corrections)
+
 The framework utilized in the present work for formulating explicit algebraic turbulence model is shown as follow:
 
 ![framework](./fig/framework.png)
 
 It is shown that the discovered model can improve the RANS predictions:
 
-
+![case_0p8_Up_comparison](./fig/case_0p8_Up_comparison.png)
 
 # Installation
 
@@ -50,3 +52,22 @@ You can use the [`runSimulation.sh`](https://github.com/thw1021/DSRRANS/blob/mai
 
 Please refer to [dso repo](https://github.com/brendenpetersen/deep-symbolic-optimization) for the meaning of training parameters.
 
+If you find this work useful for your research, please consider citing our work:
+```
+@article{doi:10.1063/5.0135638,
+author = {Tang,Hongwei  and Wang,Yan  and Wang,Tongguang  and Tian,Linlin },
+title = {Discovering explicit Reynolds-averaged turbulence closures for turbulent separated flows through deep learning-based symbolic regression with non-linear corrections},
+journal = {Physics of Fluids},
+volume = {0},
+number = {ja},
+pages = {null},
+year = {0},
+doi = {10.1063/5.0135638},
+URL = {https://doi.org/10.1063/5.0135638},
+eprint = {https://doi.org/10.1063/5.0135638}
+}
+```
+
+# Help
+
+If you encounter problems, feel free to open an issue. You can also send an email to me (thw1021@nuaa.edu.cn, Hongwei Tang).
