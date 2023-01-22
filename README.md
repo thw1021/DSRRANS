@@ -52,6 +52,11 @@ You can use the [`runSimulation.sh`](https://github.com/thw1021/DSRRANS/blob/mai
 
 Please refer to [dso repo](https://github.com/brendenpetersen/deep-symbolic-optimization) for the meaning of training parameters.
 
+# Help
+
+If you encounter problems, feel free to open an issue. You can also send an email to me (thw1021@nuaa.edu.cn, Hongwei Tang).
+
+
 If you find this work useful for your research, please consider citing our work:
 ```
 @article{doi:10.1063/5.0135638,
@@ -67,7 +72,3 @@ URL = {https://doi.org/10.1063/5.0135638},
 eprint = {https://doi.org/10.1063/5.0135638}
 }
 ```
-
-# Help
-
-If you encounter problems, feel free to open an issue. You can also send an email to me (thw1021@nuaa.edu.cn, Hongwei Tang).
