@@ -17,28 +17,36 @@ geometrical configurations. The results demonstrate promising accuracy improveme
 showing the generalization ability of the proposed method. Moreover, with the given explicit model equations, it can be
 easier to interpret the influence of input features on generated models.
 
+The framework utilized in the present work for formulating explicit algebraic turbulence model is shown as follow:
+
+![framework](./fig/framework.png)
+
+It is shown that the discovered model can improve the RANS predictions:
+
+
+
 # Installation
 
 ### Install dso package
 
-To install all dependencies for performing training, run `pip install -e ./dso[all]`
+To install all dependencies for performing training, run `pip install -e ./dso[all]` (please refer to [dso repo](https://github.com/brendenpetersen/deep-symbolic-optimization) for installation details).
 
 
 ### Install OpenFOAM package
 
-To install turbulence model module, run the following command in `TurbulenceModels` folder `wclean && wmake`
+To install turbulence model module, run `wclean && wmake` in `TurbulenceModels` folder.
 
 # Getting started
 
 ### Run the training
 
-To start a training, run `python -m dso.run dsoTurbulenceConfig.json` in `dso/dso`. Change the dataset path to use your own data.
+To start a training, run `python -m dso.run dsoTurbulenceConfig.json` in `dso/dso`. Change the [dataset path](https://github.com/thw1021/DSRRANS/blob/d35a2d2bf1ffc338d8334b8f2963258e5f40f737/dso/dso/task/regression/regression.py#L494-L498) to use your own data.
 
 ### Run the simulation
 
-You can use the `runSimulation.sh` script to start the simulation after finishing the compilation of turbulence model.
+You can use the [`runSimulation.sh`](https://github.com/thw1021/DSRRANS/blob/main/turbulenceCases/testing/runSimulation.sh) script to start the simulation after finishing the compilation of turbulence model.
 
 ### Configuring runs
 
-
+Please refer to [dso repo](https://github.com/brendenpetersen/deep-symbolic-optimization) for the meaning of training parameters.
 
