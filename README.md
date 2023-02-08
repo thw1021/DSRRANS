@@ -52,12 +52,13 @@ If you find this work useful for your research, please consider citing our work:
 author = {Tang,Hongwei  and Wang,Yan  and Wang,Tongguang  and Tian,Linlin },
 title = {Discovering explicit Reynolds-averaged turbulence closures for turbulent separated flows through deep learning-based symbolic regression with non-linear corrections},
 journal = {Physics of Fluids},
-volume = {0},
-number = {ja},
-pages = {null},
-year = {0},
+volume = {35},
+number = {2},
+pages = {025118},
+year = {2023},
 doi = {10.1063/5.0135638},
 URL = {https://doi.org/10.1063/5.0135638},
 eprint = {https://doi.org/10.1063/5.0135638}
 }
+
 ```
