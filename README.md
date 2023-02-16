@@ -62,3 +62,6 @@ eprint = {https://doi.org/10.1063/5.0135638}
 }
 
 ```
+
+# Typo
+There is a small typo in Sec.II.E. In step 5, `\pmb{b}_{*}^{\bot}` should be `\pmb{b}^{\bot}`.
