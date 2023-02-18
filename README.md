@@ -64,4 +64,5 @@ eprint = {https://doi.org/10.1063/5.0135638}
 ```
 
 # Typo
-There is a small typo in Sec.II.E. In step 5, `\pmb{b}_{*}^{\bot}` should be `\pmb{b}^{\bot}`.
+1. There is a small typo in Sec.II.E. In step 5, `\pmb{b}_{*}^{\bot}` should be `\pmb{b}^{\bot}`.
+2. The `\lambda` in Fig. 11 should be `G`, i.e., `\lambda_{i}`, `\lambda_{1}`, `\lambda_{2}` and `\lambda_{3}` should be `G^{i}`, `G^{1}`, `G^{2}` and `G^{3}`, respectively.
